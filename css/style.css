@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+ul, ol{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+}
+/*=============== main top =============*/
+#main-top{
+	background: #444444;
+}
+.top-left{
+position: relative;
+
+}
+.top-left::after{
+	position: absolute;
+	content:'';
+	top:0;
+	left: 0;
+	background: #DDDDDD;
+	height: 45px;
+	width:1px;
+}
+.top-left .lan{
+	color: #DDDDDD;
+	background: transparent;
+	padding: 10px 0;
+	font-size: 13px;
+	font-weight: 400;
+	border: none;
+}
+
+.top-left .money{
+	color: #DDDDDD;
+	background: transparent;
+	padding left: : 20px;
+	font-size: 13px;
+	font-weight: 400;
+	border: none;
+}
+
+.top-left .number{
+	display: inline-block;
+	color: #DDDDDD;
+	padding: 10px 0;
+	font-size: 13px;
+	font-weight: 400;
+}
